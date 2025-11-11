@@ -1,0 +1,24 @@
+{
+  "name": "realtime-firebase-demo",
+  "version": "1.0.0",
+  "description": "A simple demo application for CRUD operations using Firebase Realtime Database.",
+  "main": "public/main.js",
+  "scripts": {
+    "start": "firebase serve --only hosting",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "keywords": [
+    "firebase",
+    "realtime-database",
+    "crud",
+    "demo"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^9.0.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^9.0.0"
+  }
+}

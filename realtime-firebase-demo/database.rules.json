@@ -1,0 +1,13 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "Musicas": {
+      ".read": "true",
+      ".write": "auth != null",
+      "$musicId": {
+        ".validate": "newData.child('id').isString() && newData.child('artista').isString() && newData.child('titulo').isString()"
+      }
+    }
+  }
+}
