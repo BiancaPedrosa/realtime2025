@@ -68,3 +68,7 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# ...git sshkeys
+gitsshkey
+gitsshkey.pub
