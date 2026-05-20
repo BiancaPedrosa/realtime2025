@@ -4,7 +4,7 @@ import { getDatabase, ref, get, set, update, remove, onValue, child } from "http
 const firebaseConfig = {
   apiKey: "AIzaSyDoUBuN4FfpvPbB5KvmS6Z4jfh3D3E1b3s",
   authDomain: "realtime252-16cd7.firebaseapp.com",
-  databaseURL: "https://realtime252-16cd7-default-rtdb.firebaseio.com",
+  databaseURL: "https://realtime25-c5f73-default-rtdb.firebaseio.com/",
   projectId: "realtime252-16cd7",
   storageBucket: "realtime252-16cd7.firebasestorage.app",
   messagingSenderId: "813830241791",

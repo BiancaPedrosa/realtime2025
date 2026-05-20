@@ -72,3 +72,9 @@ node_modules/
 # ...git sshkeys
 gitsshkey
 gitsshkey.pub
+
+# .gitignore
+.gitignore
+
+# mac files
+.DS_Store
